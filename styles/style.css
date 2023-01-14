@@ -7,7 +7,12 @@
 body{
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    margin: 50px;
+    margin: 0px;
+}
+.body{
+    width: 1200px;
+    margin: auto
+
 }
 .login-section{
     display: flex;
@@ -127,3 +132,57 @@ body{
     font-weight: 700;
     color: rgba(224, 44, 109, 0.87);
 }
+
+.featured-products{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.featured-image{
+    width: 484px;
+    height: 270px;
+    border: 2px solid black;
+    border-radius: 7px;
+    border-style: none;
+    padding-right: 96px;
+}
+.featured-info{
+    width: 610px;
+    height: 224px;
+    margin-bottom: 80px;
+}
+.feauterd-info-title{
+    height: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0A0826;
+}
+.featured-info-details{
+    height: 88px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #000000;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .footer-icon {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    gap: 1.5rem;
+  }
