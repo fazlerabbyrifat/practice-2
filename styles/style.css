@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px;
+}
+.login-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.nav-items a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.container-header{
+    width: 582px;
+    height: 133px;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #3A3A3A;
+}
+.container-para{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+.btn{
+    padding: 10px 24px;
+    width: 196px;
+    height: 44px;
+    border-radius: 20px;
+    color: #3A3A3A;
+    background: #E02C6D;
+}
+.container img{
+    width: 475px;
+    height: 475px;
+    border-radius: 50%;
+    background-color: #F1E4FF;
+}
+
+.brands-logo{
+    width: 1110px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    padding-top: 30px;
+    margin-left: 50px;
+    gap: 50px;
+    
+    
+}
+
+.products-title{
+    width: 262px;
+    height: 70px;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.products{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.available-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+.products-img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    padding: 20px 17px;
+    
+}
+.products-info{
+    margin-top: 16px;
+    width: 151px;
+    padding: 20px 17px;
+    color: #18191F;
+}
+.fa-star{
+    width: 12px;
+    height: 10px;
+    color: #FB8200;
+}
+.fa-star-half-stroke{
+    width: 12px;
+    height: 10px;
+    color: #FB8200;
+    margin-right: 15px;
+}
+.products-description{
+    height: 61px;
+    font-size: 14px;
+    color: #787885;
+    padding-left: 20px;
+}
+.text-btn{
+    margin: 30px 90px;
+    text-align: end;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+}
